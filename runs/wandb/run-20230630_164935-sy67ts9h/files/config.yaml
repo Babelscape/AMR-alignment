@@ -1,0 +1,123 @@
+wandb_version: 1
+
+name:
+  desc: null
+  value: baseline+smart_init
+model:
+  desc: null
+  value: facebook/bart-large
+penman_linearization:
+  desc: null
+  value: true
+use_pointer_tokens:
+  desc: null
+  value: true
+raw_graph:
+  desc: null
+  value: false
+remove_wiki:
+  desc: null
+  value: false
+dereify:
+  desc: null
+  value: false
+collapse_name_ops:
+  desc: null
+  value: false
+batch_size:
+  desc: null
+  value: 2000
+beam_size:
+  desc: null
+  value: 1
+dropout:
+  desc: null
+  value: 0.25
+attention_dropout:
+  desc: null
+  value: 0.0
+smart_init:
+  desc: null
+  value: true
+accum_steps:
+  desc: null
+  value: 2
+warmup_steps:
+  desc: null
+  value: 1
+training_steps:
+  desc: null
+  value: 250000
+weight_decay:
+  desc: null
+  value: 0.004
+grad_norm:
+  desc: null
+  value: 2.5
+scheduler:
+  desc: null
+  value: constant
+learning_rate:
+  desc: null
+  value: 5.0e-05
+max_epochs:
+  desc: null
+  value: 30
+save_checkpoints:
+  desc: null
+  value: true
+log_wandb:
+  desc: null
+  value: true
+warm_start:
+  desc: null
+  value: true
+use_recategorization:
+  desc: null
+  value: false
+best_loss:
+  desc: null
+  value: false
+remove_longer_than:
+  desc: null
+  value: 1024
+train:
+  desc: null
+  value: /home/martinez/project/amr-data/amr-3.0/data/alignments/split/training/*.txt
+dev:
+  desc: null
+  value: /home/martinez/project/amr-data/amr-3.0/data/alignments/split/dev/*.txt
+test:
+  desc: null
+  value: /home/martinez/project/amr-data/amr-3.0/data/alignments/split/test/*.txt
+_wandb:
+  desc: null
+  value:
+    python_version: 3.7.0
+    cli_version: 0.15.4
+    framework: huggingface
+    huggingface_version: 4.11.0
+    is_jupyter_run: false
+    is_kaggle_kernel: false
+    start_time: 1688143775.042311
+    t:
+      1:
+      - 1
+      - 10
+      - 11
+      - 49
+      - 55
+      2:
+      - 1
+      - 10
+      - 11
+      - 49
+      - 55
+      3:
+      - 16
+      - 23
+      4: 3.7.0
+      5: 0.15.4
+      6: 4.11.0
+      8:
+      - 5

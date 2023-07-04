@@ -1,0 +1,145 @@
+{
+    "os": "Linux-5.4.0-71-generic-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.0",
+    "heartbeatAt": "2023-06-30T16:49:35.679183",
+    "startedAt": "2023-06-30T16:49:35.035932",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "bin/train.py",
+    "codePath": "bin/train.py",
+    "git": {
+        "remote": "https://github.com/Babelscape/amr-alignment",
+        "commit": null
+    },
+    "email": "acarlos2696@hotmail.com",
+    "root": "/home/martinez/project/acl2023/amr-alignment",
+    "host": "knowgraphs2",
+    "username": "martinez",
+    "executable": "/home/martinez/miniconda3/envs/spring-original/bin/python",
+    "cpu_count": 10,
+    "cpu_count_logical": 20,
+    "cpu_freq": {
+        "current": 4266.495599999999,
+        "min": 800.0,
+        "max": 5300.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 4225.661,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4498.873,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4213.01,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4236.135,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4371.513,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4232.758,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4209.718,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4310.621,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4087.763,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4244.169,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4250.607,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4177.684,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4342.742,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4222.006,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4293.133,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4276.926,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4239.783,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4367.976,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4332.211,
+            "min": 800.0,
+            "max": 5300.0
+        },
+        {
+            "current": 4196.623,
+            "min": 800.0,
+            "max": 5300.0
+        }
+    ],
+    "disk": {
+        "total": 915.3965301513672,
+        "used": 793.5299949645996
+    },
+    "gpu": "GeForce RTX 3090",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce RTX 3090",
+            "memory_total": 25444548608
+        }
+    ],
+    "memory": {
+        "total": 125.65840530395508
+    }
+}
