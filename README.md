@@ -69,4 +69,4 @@ We welcome contributions to the Cross-lingual AMR Aligner project. If you have a
 
 ## Contact
 
-For any questions or inquiries, please contact Abelardo Carlos Martínez Lorenzo at martines@babelscape.com or Pere-Lluís Huguet Cabot at huguetcabot@bablescape.com
+For any questions or inquiries, please contact Abelardo Carlos Martínez Lorenzo at martinez@babelscape.com or Pere-Lluís Huguet Cabot at huguetcabot@babelscape.com
